@@ -16,7 +16,7 @@ private static Command increment = new Command() {
 
 };
 
- public static void main(String[] args) {
+public static void main(String[] args) {
 
     HistoryHandler handler = new HistoryHandler();
 
