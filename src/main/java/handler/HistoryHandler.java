@@ -51,7 +51,7 @@ public class HistoryHandler implements CommandHandler {
     }
 
     /**
-     * Redo last command if exist
+     * Redo last command if exists
      */
     public void redo() {
         if (enabled && !redoHistory.isEmpty()) {
@@ -62,7 +62,7 @@ public class HistoryHandler implements CommandHandler {
     }
 
     /**
-     * Undo last command if exist
+     * Undo last command if exists
      */
     public void undo() {
         if (enabled && !defaultHistory.isEmpty()) {
