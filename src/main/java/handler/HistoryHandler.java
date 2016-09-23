@@ -45,7 +45,7 @@ public class HistoryHandler implements CommandHandler {
         if (defaultHistory.size() > length)
             defaultHistory.removeLast();
 
-        defaultHistory.add(command);
+        defaultHistory.addFirst(command);
         redoHistory.clear();
         command.run();
     }
